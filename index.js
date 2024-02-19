@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 let fs = require('fs');
-const PORT = 4999;
+const PORT = process.env.PORT || 4999;
 
 const date = new Date();
 
